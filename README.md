@@ -3,6 +3,7 @@
 Uses https://pypi.org/project/daikinapi/ / https://github.com/arska/python-daikinapi/ to get metrics and either serves them as a webserver on port 8080 or sends them to a prometheus pushgateway (command line argument --pushgateway or env variable PROM_GATEWAY)
 
 ## Usage
+```
 $ python app.py -h
 usage: app.py [-h] [-n] [-v] [-p PUSHGATEWAY] [hosts [hosts ...]]
 
@@ -20,7 +21,7 @@ optional arguments:
   -p PUSHGATEWAY, --pushgateway PUSHGATEWAY
                         send metrics prometheus pushgateway and exit. Can also
                         be defined in PROM_GATEWAY env variable
-
+```
 ## Environment variables
 * PROM_HOSTS: whitespace separated list of hosts to query and metrics to export
 * PROM_GATEWAY: prometheus pushgateway to send metrics to and exit
