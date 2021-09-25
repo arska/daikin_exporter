@@ -6,7 +6,7 @@
 #
 certifi==2020.4.5.1       # via requests
 chardet==3.0.4            # via requests
-daikinapi==1.0.5
+daikinapi==1.0.7
 idna==2.9                 # via requests
 prometheus-client==0.7.1
 python-dotenv==0.12.0
