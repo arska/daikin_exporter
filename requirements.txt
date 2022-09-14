@@ -10,7 +10,7 @@ charset-normalizer==2.1.1
     # via requests
 daikinapi==1.0.7
     # via -r requirements.in
-idna==3.3
+idna==3.4
     # via requests
 prometheus-client==0.14.1
     # via -r requirements.in
