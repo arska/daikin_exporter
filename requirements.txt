@@ -12,7 +12,7 @@ daikinapi==1.0.7
     # via -r requirements.in
 idna==3.4
     # via requests
-prometheus-client==0.14.1
+prometheus-client==0.15.0
     # via -r requirements.in
 python-dotenv==0.21.0
     # via -r requirements.in
