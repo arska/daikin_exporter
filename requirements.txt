@@ -16,7 +16,7 @@ prometheus-client==0.16.0
     # via -r requirements.in
 python-dotenv==1.0.0
     # via -r requirements.in
-requests==2.30.0
+requests==2.31.0
     # via daikinapi
 urllib3==2.0.2
     # via
